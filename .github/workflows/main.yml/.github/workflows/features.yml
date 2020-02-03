@@ -5,8 +5,8 @@ on:
     # Sequence of patterns matched against refs/heads
     branches:    
       - master         # Push events on master branch
-      - 'mona/octocat' # Push events to branches matching refs/heads/mona/octocat
-      - 'releases/**'  # Push events to branches matching refs/heads/releases/10
+      - 'actions_w_branch/features' # Push events to branches matching refs/heads/mona/octocat
+      - 'features'  # Push events to branches matching refs/heads/releases/10
 jobs:
   build:
     # Job name is Greeting
