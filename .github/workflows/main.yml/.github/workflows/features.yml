@@ -2,7 +2,7 @@ name: FeatureCI
 on:
   push:
     branches:
-      - 'features'
+      - 'features/*'
 jobs:
   build:
     runs-on: ubuntu-latest
